@@ -4,7 +4,7 @@ import Image from 'next/image'
 import React, { useState, useEffect } from "react";
 
 export default function Home() {
-  const word = "Welcome";
+  const word = "Weelcome";
   const [displayedText, setDisplayedText] = useState("");
   let i = 0;
 
@@ -16,7 +16,7 @@ export default function Home() {
       } else {
         clearInterval(timer);
       }
-    }, 700);
+    }, 1000);
 
     return () => clearInterval(timer);
   }, []);
