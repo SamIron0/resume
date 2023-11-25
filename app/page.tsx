@@ -16,7 +16,7 @@ export default function Home() {
       } else {
         clearInterval(timer);
       }
-    }, 4000);
+    }, 300);
 
     return () => clearInterval(timer);
   }, []);
