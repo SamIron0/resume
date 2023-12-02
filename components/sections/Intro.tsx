@@ -26,15 +26,14 @@ height:500px;
 
   const one = <h1 className='text-md'>Hi, my name is</h1>;
   const two = <h2 className="pt-6 text-6xl">Samuel Ironkwe.</h2>;
-  const three = <h3 className="pt-6 text-6xl">I build things for the web.</h3>;
+  const three = <h3 className="pt-6 max-w-xl text-6xl">I build things for the web.</h3>;
   const four = (
-    <>
-      <p className='pt-6 pb-6 text-md'>
+    
+      <p className='pt-6 pb-6 max-w-lg text-md'>
         I’m a software engineer and web designer specializing in building and designing exceptional
         digital experiences. Currently, I’m focused on building accessible, human-centered websites for small and mid sized businesses.
         .
       </p>
-    </>
   );
 
   const five = (
