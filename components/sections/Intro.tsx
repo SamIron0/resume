@@ -8,7 +8,6 @@ export default function Intro() {
   display: flex;
   flex-direction: column;
 height:500px;
-margin-left: 4;
   // Responsive design
   @media (max-width: 520px) {
     padding: 1rem;
