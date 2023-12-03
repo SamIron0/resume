@@ -11,7 +11,7 @@ export default function Projects() {
 
                 <a
                     href="https://fitpalai.com"
-                    className="group rounded-lg border border-transparent px-5 py-4 transition-colors border-gray-300 bg-gray-100 dark:border-neutral-700 dark:bg-neutral-800/30"
+                    className="group  rounded-lg max-w-md border border-transparent px-5 py-4 transition-colors border-gray-300 bg-gray-100 dark:border-neutral-700 dark:bg-neutral-800/30"
                     target="_blank"
                     rel="noopener noreferrer"
                 >
@@ -24,8 +24,8 @@ export default function Projects() {
                             -&gt;
                         </span>
                     </h2>
-                    <div className='grid lg:grid-cols-3 gap-1 '>
-                        <div className={`py-1 px-1 flex justify-center shadow-md no-underline w-full rounded-full bg-blue-600 text-white font-sans font-semibold text-[12px] border-blue btn-primary`}>Primary</div>
+                    <div className='grid sm:grid-cols-3 gap-1 '>
+                        <div className={`py-1 px-1 flex max-w-lg justify-center shadow-md no-underline w-full rounded-full bg-blue-600 text-white font-sans font-semibold text-[12px] border-blue btn-primary`}>Primary</div>
                         <div className={`py-1 px-1 flex justify-center shadow-md no-underline w-full rounded-full bg-blue-600 text-white font-sans font-semibold text-[12px] border-blue btn-primary`}>Primary</div>
                         <div className={`py-1 px-1 flex justify-center shadow-md no-underline w-full rounded-full bg-blue-600 text-white font-sans font-semibold text-[12px] border-blue btn-primary`}>Primary</div>
                     </div>

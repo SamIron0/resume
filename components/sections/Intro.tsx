@@ -7,8 +7,8 @@ export default function Intro() {
   const RowSection = styled.div`
   display: flex;
   flex-direction: column;
-  justify-content: center;  
 height:500px;
+margin-left: 4;
   // Responsive design
   @media (max-width: 520px) {
     padding: 1rem;
