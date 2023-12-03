@@ -44,7 +44,7 @@ export default function Home() {
         <Intro />
 
       </div>
-      <div className="w-full sm:px-6">
+      <div className="sm:w-full sm:px-6">
         <Projects />
       </div>
 
