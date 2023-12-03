@@ -8,10 +8,7 @@ export default function Intro() {
   display: flex;
   flex-direction: column;
 height:500px;
-  // Responsive design
-  @media (max-width: 520px) {
-    padding: 1rem;
-  }
+  
 `;
   const Header = styled.h1`
       margin-bottom: 1.5rem;

@@ -7,11 +7,10 @@ export default function Projects() {
     return (
         <div>
             <p className='text-white text-2xl sm:text-4xl mt-28 pb-6'>Here Is What I Have Worked On</p>
-            <div className="mb-32 grid text-center gap-3 lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-3 lg:text-left">
-
+            <div className="mb-32 grid flex justify-center text-center gap-3 lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-2 lg:text-left">
                 <a
                     href="https://fitpalai.com"
-                    className="group  rounded-lg max-w-md border border-transparent px-5 py-4 transition-colors border-gray-300 bg-gray-100 dark:border-neutral-700 dark:bg-neutral-800/30"
+                    className="group  rounded-lg border border-transparent px-5 py-4 transition-colors border-gray-300 bg-gray-100 dark:border-neutral-700 dark:bg-neutral-800/30"
                     target="_blank"
                     rel="noopener noreferrer"
                 >
@@ -25,7 +24,7 @@ export default function Projects() {
                         </span>
                     </h2>
                     <div className='grid sm:grid-cols-3 gap-1 '>
-                        <div className={`py-1 px-1 flex max-w-lg justify-center shadow-md no-underline w-full rounded-full bg-blue-600 text-white font-sans font-semibold text-[12px] border-blue btn-primary`}>Primary</div>
+                        <div className={`py-1 px-1 flex max-w-md justify-center shadow-md no-underline rounded-full bg-blue-600 text-white font-sans font-semibold text-[12px] border-blue btn-primary`}>Primary</div>
                         <div className={`py-1 px-1 flex justify-center shadow-md no-underline w-full rounded-full bg-blue-600 text-white font-sans font-semibold text-[12px] border-blue btn-primary`}>Primary</div>
                         <div className={`py-1 px-1 flex justify-center shadow-md no-underline w-full rounded-full bg-blue-600 text-white font-sans font-semibold text-[12px] border-blue btn-primary`}>Primary</div>
                     </div>
