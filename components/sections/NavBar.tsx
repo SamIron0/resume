@@ -2,10 +2,10 @@
 import { styled } from "../../stitches.config"
 import { useState } from 'react'
 import Link from 'next/link'
-import { useRouter } from 'next/router'
+import { useRouter } from "next/navigation";
 import { motion, AnimateSharedLayout } from 'framer-motion'
 import { useKBar } from 'kbar'
-
+import { css } from "../../stitches.config";
 export default function Navbar() {
   const router = useRouter()
   const pages = [
@@ -150,19 +150,11 @@ export default function Navbar() {
 
               return (
                 <li key={page}>
-                  <Link href={path} passHref>
+                  <Link href={"/"} passHref>
                     <Anchor>
                       <NavContainer
                         onHoverStart={() => setHovered(page)}
                         onHoverEnd={() => setHovered('')}
-                        css={
-                          router.pathname == path
-                            ? {
-                              color: '$primary',
-                              '&::after': { opacity: 1 },
-                            }
-                            : ''
-                        }
                       >
                         {isHovered && (
                           <NavHovered
@@ -187,7 +179,6 @@ export default function Navbar() {
             as="button"
             type="button"
             aria-label="Command"
-            onClick={query.toggle}
             css={{ padding: '0 8px' }}
           >
             <Icon className="ri-command-line" />
