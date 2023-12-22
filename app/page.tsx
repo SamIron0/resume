@@ -1,8 +1,8 @@
 'use client'
 import Image from 'next/image'
-import Intro from '../components/sections/Intro'
+import Intro from '../components/Intro'
 import React, { useState, useEffect } from "react";
-import Projects from '@/components/sections/Projects';
+import Projects from '@/components/Projects';
 
 export default function Home() {
   const word = "Weelcome";

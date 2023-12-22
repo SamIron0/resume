@@ -1,9 +1,6 @@
-"use client";
 import styled from 'styled-components';
 
 export default function Projects() {
-
-
     return (
         <div>
             <p className='text-white text-2xl sm:text-4xl mt-28 pb-6'>Here Is What I Have Worked On</p>
