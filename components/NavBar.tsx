@@ -65,7 +65,17 @@ export default function Navbar() {
             })}
           </List>
         </Nav>
-
+        <Aside>
+          <ButtonHeader
+            as="button"
+            type="button"
+            aria-label="Command"
+            onClick={query?.toggle}
+            css={{ padding: '0 8px' }}
+          >
+            <Icon className="ri-command-line" />
+          </ButtonHeader>
+        </Aside>
 
       </Header>
     </AnimateSharedLayout >
